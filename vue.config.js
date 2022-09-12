@@ -1,3 +1,6 @@
 module.exports = {
-  transpileDependencies: true
+  publicPath: process.env.NODE_ENV === 'production' ?
+    '/modals' : '/',
+  assetsDir: 'assets',
+  productionSourceMap: false
 }

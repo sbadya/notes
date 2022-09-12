@@ -1,5 +1,5 @@
 {
-  "name": "vue-cli",
+  "name": "notes-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -12,7 +12,9 @@
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^5.0.0",
-    "@vue/cli-service": "^5.0.0",
+    "@vue/cli-service": "^5.0.8",
+    "less": "^4.1.3",
+    "less-loader": "^11.0.0",
     "vue-template-compiler": "^2.6.14"
   }
 }
